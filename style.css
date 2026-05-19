@@ -1,0 +1,50 @@
+@font-face {
+    font-family: 'romantics';
+    src: url('ROMANTIC.TTF') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #FFF4E6;
+}
+
+.text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-weight: 100;
+    font-family: 'romantics';
+    letter-spacing: 3px;
+ 
+    color: #8e6e5f;;
+    font-size: 32px;
+    z-index: 10;
+}
+
+#songTitle{
+    
+    transition: all 0.2s ease;
+}
+
+#songTitle:hover{
+    color: #674c40;
+}
+img {
+    margin-right: 10px;
+}
+@media (max-width: 768px) {
+
+    .text {
+        font-size: 20px;
+        letter-spacing: 2px;
+
+        top: 15px;
+        left: 15px;
+
+        width: 90%;
+    }
+
+}
