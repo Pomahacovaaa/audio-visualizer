@@ -85,7 +85,7 @@ function keyPressed() {
 
     if (key === '1') {
         song.stop()
-        song = song
+        song = song1
         song.play()
         document.getElementById("songTitle").innerText = "Vltava"
     }
