@@ -5,14 +5,14 @@ var fft
 
 
 function preload() {
-    song1 = loadSound('song.mp3')
-    song2 = loadSound('song2.mp3')
+    song1 = loadSound('vltava.m4a')
+    song2 = loadSound('sarka.mp3')
     song3 = loadSound('song3.mp3')
     song4 = loadSound('song4.mp3')
     song5 = loadSound('song5.mp3')
 
-    song6 = loadSound('vltava.m4a')
-    song7 = loadSound('sarka.mp3')
+    song6 = loadSound('song.mp3')
+    song7 = loadSound('song2.mp3')
     song8 = loadSound('requiem.mp3')
     song9 = loadSound('clair.mp3')
 
@@ -87,14 +87,14 @@ function keyPressed() {
         song.stop()
         song = song
         song.play()
-        document.getElementById("songTitle").innerText = "Driving Ambition - Mixkit"
+        document.getElementById("songTitle").innerText = "Vltava"
     }
 
     if (key === '2') {
         song.stop()
         song = song2
         song.play()
-        document.getElementById("songTitle").innerText = "Secret Garden - Mixkit"
+        document.getElementById("songTitle").innerText = "Šárka"
     }
 
     if (key === '3') {
@@ -122,14 +122,14 @@ function keyPressed() {
         song.stop()
         song = song6
         song.play()
-        document.getElementById("songTitle").innerText = "Vltava"
+        document.getElementById("songTitle").innerText = "Driving Ambition - Mixkit"
     }
 
     if (key === '7') {
         song.stop()
         song = song7
         song.play()
-        document.getElementById("songTitle").innerText = "Šárka"
+        document.getElementById("songTitle").innerText = "Secret Garden - Mixkit"
     }
 
     if (key === '8') {
