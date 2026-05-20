@@ -1,6 +1,6 @@
 # audio visualizer
 
-A standart audio visualizer built with p5.js.
+An audio visualizer built with p5.js.
 
 ## Features:
 * 9 different audio tracks (press keys 1–9 to switch songs)
